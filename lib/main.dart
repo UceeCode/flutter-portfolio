@@ -103,7 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(height: 20),
             ClipOval(
               child: Image.asset(
-                'assets/IMG_5222.PNG',
+                'assets/IMG_7759.jpg',
                 width: 150,
                 height: 150,
                 fit: BoxFit.cover,
