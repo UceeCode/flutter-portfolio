@@ -103,7 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(height: 20),
             ClipOval(
               child: Image.asset(
-                'assets/IMG_7759.jpg',
+                'assets/IMG_5222.PNG',
                 width: 150,
                 height: 150,
                 fit: BoxFit.cover,
@@ -131,8 +131,9 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             const SizedBox(height: 20),
-            Center(
-            child: Row(
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center, // Center Row contents
+              mainAxisSize: MainAxisSize.min,
               children: const [
                 Icon(
                   Icons.email,
@@ -146,7 +147,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 )
               ],
-            )
             )
           ],
         ),
